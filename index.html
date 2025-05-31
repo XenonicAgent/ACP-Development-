@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>
-        Bootstrap Typography example
-    </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    </script>
+    <title>Typography</title>
 </head>
+<style>
+    div {
+        width: 300px;
+        height: 100px;
+        background-color: yellow;
+        border: 1px solid black;
+    }
+    #myDiv {
+        transform: rotateX(180deg);
+    }
+</style>
 <body>
-    <div class="container border solid 5px solid black">
-        <h1>Codingal</h1>
-        <p>Making kids fall in love with coding</p>
+    <div>
+        Codingal
     </div>
-    <div class="container bg-primary text-white">
-        <h1>Codingal</h1>
-        <p>Making kids fall in love with coding</p>
-    </div>
-    <div class="container-fluid bg-danger text-white">
-      <h1>My first bootstrap webpage</h1><p>This cointainer has a dark background with white text, border and some extra margin and padding</p>
+    <div id="myDiv">
+        Codingal
     </div>
 </body>
 </html>
